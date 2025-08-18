@@ -1,22 +1,24 @@
 import React from "react";
 import "../Css/Profile.css";
+import lotus from "../Image/lotus.jpg";
 
 export default function Profile() {
   // Dummy user data (you can replace with real data later)
   const user = {
-    name: "Sophia Carter",
-    email: "sophia.carter@example.com",
+    name: "Afifah Maksurah",
+    email: "afifamaksura@gmail.com",
     joined: "2023-01-15",
     role: "Author",
-    location: "Austin, TX",
+    location: "Dhaka, Bangladesh",
     bio: "Fiction writer focusing on character-driven stories and dialogue.",
     avatar: "https://i.pravatar.cc/160?img=47",
   };
 
   return (
     <section className="profile-card">
-      <div className="profile-header">
-        <img className="profile-avatar" src={user.avatar} alt="Profile" />
+      <div className="profile-container">
+        <h2>My Profile</h2>
+        <img src={lotus} alt="Profile" className="profile-img"/>
         <div>
           <h2 className="profile-name">{user.name}</h2>
           <p className="profile-role">{user.role}</p>

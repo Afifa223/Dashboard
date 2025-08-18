@@ -2,25 +2,22 @@
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: 16px;
-  padding: 20px;
-  max-width: 800px;
+  padding: 50px;
+  max-width: 1000px;
   box-shadow: 0 6px 20px rgba(10,10,20,.04);
 }
 
+
+
+
 .profile-header {
   display: flex;
-  align-items: center;
+  align-items: baseline ;
   gap: 16px;
   margin-bottom: 16px;
 }
 
-.profile-avatar {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #eef2ff;
-}
+
 
 .profile-name { margin: 0; }
 .profile-role { margin: 2px 0 0; color: var(--muted); }
@@ -36,3 +33,13 @@
 
 .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
 .value { font-weight: 600; }
+
+.profile-img {
+  width: 300px;        /* default size */
+  height: 300px;
+  object-fit:fill;   /* crop instead of stretching */
+  border-radius:0%;  /* circle */
+  display: block;
+  margin: 0 auto;
+}
+
