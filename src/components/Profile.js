@@ -3,27 +3,31 @@ import "../Css/Profile.css";
 import lotus from "../Image/lotus.jpg";
 
 export default function Profile() {
-  // Dummy user data (you can replace with real data later)
+  
   const user = {
     name: "Afifah Maksurah",
     email: "afifamaksura@gmail.com",
-    joined: "2023-01-15",
+    joined: "15-01-2025",
     role: "Author",
     location: "Dhaka, Bangladesh",
     bio: "Fiction writer focusing on character-driven stories and dialogue.",
-    avatar: "https://i.pravatar.cc/160?img=47",
+    
   };
 
   return (
     <section className="profile-card">
       <div className="profile-container">
-        <h2>My Profile</h2>
+        <h1>My Profile</h1>
         <img src={lotus} alt="Profile" className="profile-img"/>
-        <div>
-          <h2 className="profile-name">{user.name}</h2>
-          <p className="profile-role">{user.role}</p>
-        </div>
+        
       </div>
+
+      <div className="profile-grid">
+        <div className="field">
+          <span className="label">Author</span>
+          <span className="value">{user.name}</span>
+        </div>
+        </div>
 
       <div className="profile-grid">
         <div className="field">
@@ -33,7 +37,7 @@ export default function Profile() {
         <div className="field">
           <span className="label">Joined</span>
           <span className="value">
-            {new Date(user.joined).toLocaleDateString()}
+            {user.joined}
           </span>
         </div>
         <div className="field">

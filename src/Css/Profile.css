@@ -11,16 +11,17 @@
 
 
 .profile-header {
-  display: flex;
-  align-items: baseline ;
-  gap: 16px;
+  display:grid;
+  align-items:center ;
+  gap: 25px;
   margin-bottom: 16px;
 }
 
 
 
-.profile-name { margin: 0; }
-.profile-role { margin: 2px 0 0; color: var(--muted); }
+.profile-name { margin:auto; }
+.profile-role { margin:auto; color: var(--muted); }
+
 
 .profile-grid {
   display: grid;
@@ -35,11 +36,11 @@
 .value { font-weight: 600; }
 
 .profile-img {
-  width: 300px;        /* default size */
+  width: 300px;        
   height: 300px;
-  object-fit:fill;   /* crop instead of stretching */
-  border-radius:0%;  /* circle */
-  display: block;
+  object-fit:fill;   
+  border-radius:0%; 
+  display:flex;
   margin: 0 auto;
 }
 

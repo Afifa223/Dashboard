@@ -1,6 +1,6 @@
 .sidebar {
-  background: #101827;
-  color: #e5e7eb;
+  background: #190c48;
+  color: #e5e9eb;
   min-height: 100vh;
   padding: 16px 10px;
   position: sticky;
@@ -16,7 +16,7 @@
 
 .toggle-btn {
   border: none;
-  background: #1f2937;
+  background: #435f85;
   color: #e5e7eb;
   padding: 8px 10px;
   border-radius: 10px;

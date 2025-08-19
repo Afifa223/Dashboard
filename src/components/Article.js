@@ -3,7 +3,7 @@ import Pagination from "./Pagination";
 import Badge from "react-bootstrap/Badge";
 import "../Css/Article.css";
 
-// Dummy dataset (15 items for pagination demo)
+
 const allArticles = Array.from({ length: 15 }, (_, i) => {
   const id = i + 1;
   const statuses = ["Published", "Draft"];

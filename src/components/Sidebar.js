@@ -10,7 +10,7 @@ export default function Sidebar({
   return (
     <aside className={`sidebar ${isOpen ? "open" : "collapsed"}`}>
       <button className="toggle-btn" onClick={toggleSidebar} aria-label="Toggle sidebar">
-        {isOpen ? "⟨⟨" : "⟩⟩"}
+        {isOpen ? "||||" : "||||"}
       </button>
 
       <ul className="nav-list">
