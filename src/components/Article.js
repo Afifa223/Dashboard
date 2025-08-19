@@ -10,7 +10,7 @@ const allArticles = Array.from({ length: 15 }, (_, i) => {
   const status = statuses[i % 2];
   const edited = id % 3 === 0 ? "2 weeks ago" : id % 3 === 1 ? "2 days ago" : "1 week ago";
   const titles = [
-    "The Art of Storytelling: A Guide to Captivating Your Audience",
+    "The Art of Storytelling: A Guide to Attract Your Audience",
     "Crafting Compelling Characters: A Step-by-Step Approach",
     "Mastering Dialogue in Fiction: Techniques for Realistic Conversations",
     "Worldbuilding Essentials: Designing Cohesive Fantasy Settings",
